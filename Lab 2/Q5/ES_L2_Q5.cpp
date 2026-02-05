@@ -52,7 +52,7 @@ int main() {
 
         printf("Lockdown Counter: \n");
         // Blinks LED for number of times lock down mode has been activated
-        for (int i = 0; i <= lockdown_counter; i++) {
+        for (int i = 1; i <= lockdown_counter; i++) {
             blink_led(green_led, BLINKING_RATE_1);
             printf("Blink!\n");
         }
